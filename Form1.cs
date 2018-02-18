@@ -15,8 +15,6 @@ namespace GameofLife_Test
         private const int button_dim = 14;
         private const int grid_dim = 700;
         private const int numof_cells = grid_dim / button_dim;
-        private static readonly Color ALIVE_CELL_COLOUR = Color.Green;
-        private static readonly Color DEAD_CELL_COLOUR = Color.Black;
 
 
         int[,] engine;
