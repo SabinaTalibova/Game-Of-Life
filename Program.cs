@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GameofLife_Test
+namespace GameOfLife
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace GameofLife_Test
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Life_form());
         }
     }
 }
